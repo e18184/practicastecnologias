@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
     public void tercero(View view) {
         Intent a = new Intent(this,terceractividad.class);
         startActivity(a);
+        /*  esto es 17-4-2023 */
     }
 }
