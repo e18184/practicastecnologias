@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(a);
         /*  esto es 17-4-2023 */
     }
+
+    public void manejarlistview (View view) {
+        /* ventana se van a cargar los datos */
+        Intent  lista = new Intent(this,listview.class);
+        startActivity(lista);
+    }
 }
