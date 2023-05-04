@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         /*  esto es 17-4-2023 */
     }
     public void listapersonalizada (View view) {
-        Intent a = new Intent(this,ListaPersonalizada.class);
+        Intent b = new Intent(this,ListaPersonlizada.class);
+        startActivity(b);
 
 
     }

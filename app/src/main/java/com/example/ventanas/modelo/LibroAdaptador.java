@@ -27,10 +27,10 @@ public class LibroAdaptador extends ArrayAdapter<Libro> {
     public View getView(int posicion, @Nullable View convectView, @NonNull ViewGroup parent) {
         int indice = posicion;
         if (convectView == null) {
-            LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+            LayoutInflater.from(getContext()).inflate(R.layout.activity_lista_personlizada,parent,false);
 
         }
-        ImageView libroImagen = convectView.findViewById(R.id.imagenView);
+        ImageView libroImagen = convectView.findViewById(R.id.libro_imageview);
         TextView libroTitulo = convectView.findViewById(R.id.titulo_textview);
         TextView libroAutor = convectView.findViewById(R.id.autor_textview);
 
