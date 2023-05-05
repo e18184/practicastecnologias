@@ -10,7 +10,7 @@
         android:src="@drawable/davinci_code"/>
 
     <TextView
-        android:id="@+id/title_textview"
+        android:id="@+id/titulo_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -22,11 +22,11 @@
         android:textSize="22sp"/>
 
     <TextView
-        android:id="@+id/author_textview"
+        android:id="@+id/autor_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/libro_imageview"
-        android:layout_below="@+id/title_textview"
+        android:layout_below="@+id/titulo_textview"
         android:layout_marginLeft="20dp"
         android:layout_gravity="center"
         android:text="Dan Brown"

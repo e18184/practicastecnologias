@@ -21,9 +21,14 @@ public class ListaPersonlizada extends AppCompatActivity {
         libroLista = new ArrayList<>();
         //getting string arrays from resource
         Resources res = getResources();
+        // String[] todosLibros = {"uno","dos","tres"}
         String[] todosLibros = res.getStringArray(R.array.libros);
+        // String[] todosAutores = {"autor1","autor2","autor3"}
         String[] todosAutores = res.getStringArray(R.array.autores);
-        popularesLibroLista(todosLibros, todosAutores);
+        //popularesLibroLista(todosLibros, todosAutores);
+        libroLista.add(new Libro(todosLibros[0],todosAutores[0],R.drawable.harry_potter));
+        libroLista.add(new Libro(todosLibros[1],todosAutores[1],R.drawable.davinci_code));
+        libroLista.add(new Libro(todosLibros[2],todosAutores[2],R.drawable.hunder_games));
 
         LibroAdaptador adapter = new LibroAdaptador(getApplicationContext(),
                 R.layout.list_item, libroLista);
@@ -37,12 +42,13 @@ public class ListaPersonlizada extends AppCompatActivity {
 
     }
 
-    public void popularesLibroLista(String[]libros, String[]autores){
+    /*public void popularesLibroLista(String[]libros, String[]autores){
         libroLista.add(new Libro(libros[0],autores[0],R.drawable.davinci_code));
         libroLista.add(new Libro(libros[1],autores[1],R.drawable.girl_train));
         libroLista.add(new Libro(libros[2],autores[2],R.drawable.harry_potter));
+        libroLista.add(new Libro(libros[3],autores[3],R.drawable.hunder_games));
 
 
 
-    }
+    }*/
 }

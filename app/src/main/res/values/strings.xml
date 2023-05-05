@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Ventanas</string>
     <string-array name="libros">
-        <item>"The Da Vinci Code"</item>
-        <item>"The Girl On The Train"</item>
-        <item>"Harry Potter"</item>
+        <item>"Libro 1"</item>
+        <item>"Libro 2"</item>
+        <item>"Libro 3"</item>
         <item>"Hunger Games"</item>
         <item>"Lord of the Rings"</item>
         <item>"Moby Dick"</item>
@@ -12,9 +12,9 @@
     </string-array>
 
     <string-array name="autores">
-        <item>Dan Brown</item>
-        <item>Paula Hawkins</item>
-        <item>J. K. Rowling</item>
+        <item>Autor 1</item>
+        <item>Autor 2</item>
+        <item>Autor 3</item>
         <item>Suzanne Collins</item>
         <item>J. R. R. Tolkien</item>
         <item>Herman Melville</item>

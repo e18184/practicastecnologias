@@ -31,8 +31,8 @@ public class LibroAdaptador extends ArrayAdapter<Libro> {
 
         }
         ImageView libroImagen = convectView.findViewById(R.id.libro_imageview);
-        TextView libroTitulo = convectView.findViewById(R.id.title_textview);
-        TextView libroAutor = convectView.findViewById(R.id.author_textview);
+        TextView libroTitulo = convectView.findViewById(R.id.titulo_textview);
+        TextView libroAutor = convectView.findViewById(R.id.autor_textview);
 
         libroImagen.setImageResource(libroLista.get(posicion).getLibroImagenId());
         libroTitulo.setText(libroLista.get(posicion).getLibroTitulo());
